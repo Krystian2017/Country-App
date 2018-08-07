@@ -1,5 +1,4 @@
 import React from 'react';
-import { imageUrl } from '../data/countries.json';
 
 const CountryFlag = (props) => (
   <div className="country-logo-wrapper">
