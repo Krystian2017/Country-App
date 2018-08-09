@@ -13,9 +13,9 @@ const Navigation = props => (
         </div>
         <div className="collapse navbar-collapse">
           <ul className="nav navbar-nav">
-            <li><Link to="/countries">Countries</Link></li>
-            <li><Link to="/continents">Continents</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/countries" activeStyle={{color: '#48abee'}} onlyActiveOnIndex>Countries</Link></li>
+            <li><Link to="/continents" activeStyle={{color: '#48abee'}} onlyActiveOnIndex>Continents</Link></li>
+            <li><Link to="/contact" activeStyle={{color: '#48abee'}} onlyActiveOnIndex>Contact</Link></li>
           </ul>
         </div>
       </div>
